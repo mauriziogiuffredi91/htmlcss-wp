@@ -141,24 +141,27 @@ header .logo img{
     
 }
 
-.mini-img img{
-    width: 234px;
-}
-
 .overlay-2{
     background-color:rgba(0,0,0,0.2);
     position: absolute;
     width: 234px;
     height: 234px;
+    border-radius: 2%;
 }
+
+.mini-img img{
+    width: 234px;
+}
+
+
 
 .overlay-3{
     background-color:rgba(0,0,0,0.2);
     position: absolute;
     width: 655.19px;
     height: 234px;
+    border-radius: 2%;
 }
-
 
 
 .mini-img2 img{
@@ -166,6 +169,15 @@ header .logo img{
     width: 600px;
     
 }
+
+.overlay-4{
+    background-color:rgba(0,0,0,0.2);
+    position: absolute;
+    width: 234px;
+    height: 234px;
+    border-radius: 2%;
+}
+
 
 .mini-img3 img{
     height: 234px;
@@ -181,5 +193,15 @@ header .logo img{
 /* finale */
 footer{
     height: 60px;
-    background: rebeccapurple;
+    
+}
+
+footer h4{
+    vertical-align:middle;
+    text-align: center;
+    padding-top: 27px;
+}
+
+footer .heart{
+    color: red;
 }
