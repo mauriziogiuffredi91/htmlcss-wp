@@ -138,14 +138,18 @@ header .logo img{
     height: 600px;
     margin-bottom: 20px;
     
+    
 }
 
-.leadership .columns .mini-img{
+.leadership .columns .col img{
+    width: 234px;
+}
 
-    background-image: url('../img/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    background:#7788993b;
+.overlay-2{
+    background-color:rgba(0,0,0,0.2);
+    position: absolute;
+    width: 234px;
+    height: 234px;
 }
 
 
