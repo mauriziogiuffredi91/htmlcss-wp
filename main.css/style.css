@@ -141,7 +141,7 @@ header .logo img{
     
 }
 
-.leadership .columns .col img{
+.mini-img img{
     width: 234px;
 }
 
@@ -150,6 +150,26 @@ header .logo img{
     position: absolute;
     width: 234px;
     height: 234px;
+}
+
+.overlay-3{
+    background-color:rgba(0,0,0,0.2);
+    position: absolute;
+    width: 655.19px;
+    height: 234px;
+}
+
+
+
+.mini-img2 img{
+    height: 234px;
+    width: 600px;
+    
+}
+
+.mini-img3 img{
+    height: 234px;
+    width: 234px;
 }
 
 
