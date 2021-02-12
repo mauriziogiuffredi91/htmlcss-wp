@@ -151,6 +151,7 @@ header .logo img{
 
 .mini-img img{
     width: 234px;
+    object-fit: cover;
 }
 
 
@@ -167,6 +168,7 @@ header .logo img{
 .mini-img2 img{
     height: 234px;
     width: 600px;
+    object-fit: cover;
     
 }
 
@@ -182,6 +184,7 @@ header .logo img{
 .mini-img3 img{
     height: 234px;
     width: 234px;
+    object-fit: cover;
 }
 
 
