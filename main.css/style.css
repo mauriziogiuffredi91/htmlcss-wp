@@ -66,17 +66,28 @@ header .logo img{
 .hero{
     height: 500px;
     margin-bottom: 40px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    
     
 }
 
 .hero-container{
-    background-image: url('../img/banner.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    bac
-
+    background: #7788993b;
+    height: 100%;
 }
+
+.hero-container h3,
+.hero-container p{
+    color: white;
+    
+}
+
+
+
+
+
 
 .leadership{
     margin-bottom: 20px;
