@@ -8,11 +8,12 @@ body{
     font-family:sans-serif ;
 }
 
-h3{
+/* h3{
     font-family: 'Montserrat', sans-serif;
     color: lightslategray;
 
-}
+} */
+
 
 /* Utility */
 .clearfix::after {
@@ -30,13 +31,20 @@ h3{
 
 /* container per l'header */
 header{
-    height: 120px;
     margin-bottom: 40px;
     background: pink;
 }
 
 header .logo img{
     width: 167px;
+}
+
+.barra-selezione{
+    margin-top: 40px;
+}
+
+.barra-selezione li{
+    list-style: none;
 }
 
 /* parte centrale */
