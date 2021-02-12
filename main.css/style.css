@@ -21,3 +21,49 @@ body{
     width: 1170px;
     margin: 0 auto;
 }
+
+/* container per l'header */
+header{
+    height: 120px;
+    margin-bottom: 40px;
+    background: pink;
+}
+
+/* parte centrale */
+.hero{
+    height: 500px;
+    margin-bottom: 40px;
+    background: gold;
+}
+
+.leadership{
+    margin-bottom: 20px;
+    background: dodgerblue;
+
+}
+
+.leadership .heading{
+    height: 60px;
+    background: lightblue;
+    margin-bottom: 40px;
+
+}
+
+.leadership .columns .col{
+    float: left;
+    width: 20%;
+    height: 600px;
+    margin-bottom: 20px;
+    background: lightblue;
+}
+
+.leadership .columns .col:nth-child(2){
+    width: 56%;
+    margin: 0 2%;
+}
+
+/* finale */
+footer{
+    height: 60px;
+    background: rebeccapurple;
+}
