@@ -64,21 +64,45 @@ header .logo img{
 
 /* parte centrale */
 .hero{
+    
     height: 500px;
     margin-bottom: 40px;
     background-image: url('../img/banner.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
     
     
 }
 
 .hero-container{
-    background: #7788993b;
+
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 20px;
+    padding: 20px;
+
+}
+
+.overlay{
+    background-color:rgba(0,0,0,0.2);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
     height: 100%;
 }
 
-.hero-container h3,
+.hero,
+.overlay{
+    border-radius: 2%;
+}
+
+.hero-container h3{
+    color: white;
+    font-size: 30px;
+}
 .hero-container p{
     color: white;
     
@@ -113,8 +137,17 @@ header .logo img{
     width: 20%;
     height: 600px;
     margin-bottom: 20px;
-    background: lightblue;
+    
 }
+
+.leadership .columns .mini-img{
+
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background:#7788993b;
+}
+
 
 .leadership .columns .col:nth-child(2){
     width: 56%;
