@@ -8,6 +8,12 @@ body{
     font-family:sans-serif ;
 }
 
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: lightslategray;
+
+}
+
 /* Utility */
 .clearfix::after {
     content: '';
@@ -27,6 +33,11 @@ header{
     height: 120px;
     margin-bottom: 40px;
     background: pink;
+}
+
+.logo-image{
+    size: 30px;
+
 }
 
 /* parte centrale */
