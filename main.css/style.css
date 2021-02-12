@@ -5,14 +5,16 @@
 }
 
 body{
-    font-family:sans-serif ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
-/* h3{
-    font-family: 'Montserrat', sans-serif;
-    color: lightslategray;
-
-} */
+h1,
+h2,
+h3,
+h4{
+    font-weight: 600;
+}
 
 
 /* Utility */
@@ -32,7 +34,7 @@ body{
 /* container per l'header */
 header{
     margin-bottom: 40px;
-    background: pink;
+    
 }
 
 header .logo img{
@@ -44,7 +46,20 @@ header .logo img{
 }
 
 .barra-selezione li{
+    display: inline-block;
     list-style: none;
+    margin-right: 20px;
+
+}
+
+.barra-selezione li:last-child{
+    margin-right: 0;
+}
+
+.barra-selezione li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a8a8a8;
 }
 
 /* parte centrale */
