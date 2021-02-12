@@ -35,9 +35,8 @@ header{
     background: pink;
 }
 
-.logo-image{
-    size: 30px;
-
+header .logo img{
+    width: 167px;
 }
 
 /* parte centrale */
