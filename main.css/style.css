@@ -71,15 +71,21 @@ header .logo img{
 
 .leadership{
     margin-bottom: 20px;
-    background: dodgerblue;
+    
 
 }
 
 .leadership .heading{
-    height: 60px;
-    background: lightblue;
     margin-bottom: 40px;
 
+}
+
+.leadership h2{
+    font-size: 40px;
+}
+
+.leadership p{
+    color: #a8a8a8;
 }
 
 .leadership .columns .col{
